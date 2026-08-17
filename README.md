@@ -2,6 +2,8 @@
 
 Standalone **CLI-only** package for Swin Transformer V2 landmark (coordinate) regression on long-leg X-rays.
 
+The model can be found under : https://drive.google.com/file/d/1xTS1mNibnGhPdLKTolgZkXawiNi9VAld/view?usp=sharing
+
 No UI. Two scripts:
 
 | Script | Purpose |
