@@ -1,0 +1,43 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime data & artifacts (keep folder placeholders via .gitkeep)
+data/images/*
+!data/images/.gitkeep
+data/labels/*
+!data/labels/.gitkeep
+data/unzipped/*
+!data/unzipped/.gitkeep
+weights/*
+!weights/.gitkeep
+!weights/README.md
+outputs/*
+!outputs/.gitkeep
+
+# Large model files if dropped in-repo
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Notebooks / logs
+*.ipynb
+*.log
+runs/
